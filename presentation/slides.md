@@ -548,7 +548,7 @@ npx prisma generate      # Regenerate client only (no DB changes)
 
 ### Prisma Schema
 
-```prisma
+```txt
 
 model Link {
   id        Int      @id @default(autoincrement())
