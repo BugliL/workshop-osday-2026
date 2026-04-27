@@ -609,7 +609,7 @@ Prisma detects the diff and generates the right SQL.
 
 Add an `expiresAt` field to `Link`:
 
-```prisma
+```txt
 model Link {
   id        Int       @id @default(autoincrement())
   slug      String    @unique
